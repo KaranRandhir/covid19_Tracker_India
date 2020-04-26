@@ -1,81 +1,45 @@
-body {
-    margin: 0px;
-}
-.heading {
-    position: relative;
-    font-size: 80px;
-    color: white;
-   margin: 0%;
-   z-index: 999;
-}
-.text{
-    color:white;
-}
-.container {
-    background:black;
-    margin: 0% !important;
-    position: "absolute";
-          top: 0;
-          left: 0;
-          width: "100%";
-          height: "100%";
-          z-index: -1;
-        
-}
-.particles {
-    position: fixed;
-    right: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    
-  }
-  .pic {
-      position : absolute ;
-      right: 0px;
-      bottom: 0px;
-      z-index: 0;
-      height: 30%;
-      width: 15%;
-      animation-name: smallbig ;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-    
-      
-  }
-  .pic1 {
-    position : absolute ;
-    z-index: 0;
-    
-    height: 45%;
-    width: 22.5%;
-    animation-name: bigsmall;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
 
-table {
-    width: 40%;
-    border: 1px white;
-    font-size: 18px;
+.deaths{
+    color:darkgrey;
     
-   
-}
-
-
-@keyframes smallbig {
- 0%{ height: 30%;width: 15%;right: 0px;
-   }
-50% { height: 45%;width: 22.5%; }
-100%{ height: 30%;width: 15%; right: 0px;
     }
-
+.recovered{
+    color:green;
 }
-@keyframes bigsmall {
-    
-   0% { height: 45%;width: 22.5%;}
-   50%{ height: 30%;width: 15%;}
-   100%{ height: 45%;width: 22.5%;}
-   
-   }
+.present{
+    color:red;
+}
+.helpline-heading{
+    font-size: 8vh;
+    padding-top: 2vh;
+    margin-bottom: 5vh;
+}
+.graphs{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: "center"
+    }
+    @media only screen and (max-width: 1000px) {
+        .graphs{
+            display:flex;
+            flex-direction: column;
+            align-items: "centre";
+            justify-content: center;
+            }
+            .info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+      }tr:nth-child(even) {background-color:#e3e5e8;}
+
+      .info{
+          
+          display: flex;
+          justify-content: space-around;
+          
+      }
+    body{
+        font-family: 'Roboto Mono', monospace;
+    }

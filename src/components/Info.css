@@ -1,0 +1,15 @@
+.info-block {
+    display:flex;
+    background: #e3e5e8;
+    border-radius: 10%;
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width:25vh;
+    margin-top: 10px;
+    margin-bottom: 4vh;
+    
+    font-size: 2.5vh;
+    height:20vh;
+}
