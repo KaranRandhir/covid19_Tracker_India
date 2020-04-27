@@ -114,7 +114,7 @@ notifications:response3.data.data.notifications})
 <div style={{height:"2vh"}}></div>
 <div className="helpline-heading" style={{marginTop:"5vh"}}>Tracker</div>
 
-       <div className="info"  style={{marginTop:"5vh"}}>
+       <div className="info" >
                 <Info heading="Total" data={this.state.data[0]["confirmed"] } image={total}/>
                 <Info heading="Active" data={this.state.data[0]["active"]} image={active}/>
                 <Info heading="Recovered" data={this.state.data[0]["recovered"]} image={recovered}/>
@@ -143,7 +143,7 @@ notifications:response3.data.data.notifications})
                 <div class="ui divider"></div>
                 <div id="helplines" style={{paddingTop:"10vh"}}>
                 <div className="helpline-heading">Helplines</div>
-                <div className="info" style={{marginTop:"10vh"}}>
+                <div className="info" style={{marginTop:"8vh"}}>
                 <Info heading="Central hepline" data={this.state.centralHelpline } image={phone}/>
                 <Info heading="Toll-Free" data={1075} image={tollfree}/>
                 <Info heading="email" data={this.state.email} image={email}/>
