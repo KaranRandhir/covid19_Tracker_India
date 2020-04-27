@@ -114,7 +114,7 @@ notifications:response3.data.data.notifications})
 <div style={{height:"2vh"}}></div>
 <div className="helpline-heading" style={{marginTop:"5vh"}}>Tracker</div>
 
-       <div className="info"  style={{marginTop:"10vh"}}>
+       <div className="info"  style={{marginTop:"5vh"}}>
                 <Info heading="Total" data={this.state.data[0]["confirmed"] } image={total}/>
                 <Info heading="Active" data={this.state.data[0]["active"]} image={active}/>
                 <Info heading="Recovered" data={this.state.data[0]["recovered"]} image={recovered}/>
