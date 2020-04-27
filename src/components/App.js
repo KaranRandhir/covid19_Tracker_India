@@ -85,7 +85,16 @@ notifications:response3.data.data.notifications})
      }
     render() {
             if (this.state.data===null){
-                return <div>loading</div>
+                return(
+                    <div className="loading">
+                    
+                    <div className="ui active inverted dimmer">
+                      <div className="ui medium text loader">Loading</div>
+                    </div>
+                    </div>
+                    
+
+                )
             }
         
             return (
