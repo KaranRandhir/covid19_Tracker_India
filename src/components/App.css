@@ -51,3 +51,9 @@ html {
     body{
         font-family: 'Roboto Mono', monospace;
     }
+    .covidimg{
+        height: 18px;
+        width: 18px;
+        position:relative;
+        top:4px;
+    }

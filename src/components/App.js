@@ -4,7 +4,7 @@ import "./App.css"
 import Info from "./Info"
 import Chart from "./Piechart"
 import api2 from "../api/api2"
-
+import covidimg from "../images/covidimg.png"
 import Graph from "./Graph"
 import active from "../images/active.png"
 import total from "../images/total.png"
@@ -29,7 +29,7 @@ class App extends React.Component{
     ],contacts:response2.data.data.contacts.regional,centralHelpline:response2.data.data.contacts.primary.number,
 email:response2.data.data.contacts.primary.email,
 notifications:response3.data.data.notifications})
-    console.log(this.state.notifications)        
+    
 
     }
     
@@ -104,7 +104,7 @@ notifications:response3.data.data.notifications})
 <div className="ui fixed menu">
   <div className="header item">
     <a href="#main">
-    COVID-19 INDIA
+    C<img className="covidimg" src={covidimg}/>VID-19 INDIA
     </a>
   </div>
   <div className="right menu">
